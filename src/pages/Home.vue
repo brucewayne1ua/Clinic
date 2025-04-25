@@ -10,6 +10,33 @@
         Записатися на прийом
       </button>
     </section>
+    <section class="IndexCard">
+      <div class="center-wrapper">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../assets/medical1.jpeg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title">
+                  Наш медичний центр буде завжди радий допомогти вашому
+                  здоров’ю!
+                </h3>
+                <p class="card-text">
+                  Професiйнi лiкарi, новiтне обладнання та крутий персонал саме
+                  для вас
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="features">
       <div class="feature">
@@ -97,5 +124,15 @@ function goToBooking() {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
+}
+.IndexCard {
+  margin-left: 25%;
+  margin-bottom: 40px;
+}
+.IndexCard img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  /* border-radius: 8px; */
 }
 </style>

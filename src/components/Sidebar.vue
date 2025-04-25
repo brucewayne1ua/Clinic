@@ -18,7 +18,7 @@
         <ul class="collapse list-unstyled ps-4 mt-2" id="homeSubmenu">
           <li><a href="/">Домашня сторінка</a></li>
           <li><a href="/Services">Про послуги</a></li>
-          <li><a href="#">Детальніше про нас </a></li>
+          <li><a href="/Aboutus">Детальніше про нас </a></li>
         </ul>
       </li>
 
@@ -29,7 +29,7 @@
         </a>
       </li>
       <li>
-        <a href="#" class="d-flex align-items-center">
+        <a href="/FAQ" class="d-flex align-items-center">
           <i class="fas fa-envelope me-2"></i> Додаткова інформація
         </a>
       </li>
