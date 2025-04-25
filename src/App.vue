@@ -16,6 +16,8 @@ import Sidebar from './components/Sidebar.vue';
 </script>
 
 <style scoped>
+@import './assets/css/mobile.css';
+
 :root {
   --sidebar-width: 250px;
   --navbar-height: 60px;
